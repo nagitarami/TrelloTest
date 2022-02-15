@@ -1,0 +1,5 @@
+Hook\Hook.class
+Hook\Util.class
+PageObjects\Pages\TrelloHome.class
+PageObjects\Pages\TrelloLogin.class
+TestCase\TrelloTest.class

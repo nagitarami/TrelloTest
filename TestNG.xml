@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trello test" >
+
+   <test name="LoginTest">
+        <parameter name="usuario" value="gabriel"></parameter>
+        <parameter name="pass" value="123"></parameter>
+        <classes>
+            <class name="TestCase.TrelloTest"/>
+        </classes>
+    </test>
+
+    <test name="flujo end to end">
+        <parameter name="usuario2" value="gabriel.lozano.2018@gmail.com"></parameter>
+        <parameter name="pass2" value="Abcde123"></parameter>
+        <parameter name="tablero" value="Tablero1"></parameter>
+        <classes>
+            <class name="TestCase.TestEntToEnd"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestCase.TrelloTest" duration-ms="9805" started-at="2022-02-14T22:57:57 CLST" finished-at="2022-02-14T22:58:07 CLST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="9805" started-at="2022-02-14T22:57:57 CLST" finished-at="2022-02-14T22:58:07 CLST">
+      <class name="TestCase.TrelloTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestCase.TrelloTest@aa12dd]" name="beforeTest" is-config="true" duration-ms="7917" started-at="2022-02-14T22:57:57 CLST" finished-at="2022-02-14T22:58:05 CLST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="accederLoginFallido()[pri:0, instance:TestCase.TrelloTest@aa12dd]" name="accederLoginFallido" duration-ms="1854" started-at="2022-02-14T22:58:05 CLST" finished-at="2022-02-14T22:58:07 CLST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederLoginFallido -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCase.TrelloTest@aa12dd]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-02-14T22:58:07 CLST" finished-at="2022-02-14T22:58:07 CLST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestCase.TrelloTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestCase.TrelloTest -->
+</testng-results>
